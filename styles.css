@@ -1,11 +1,11 @@
-header, .row {
-    display: flex;  /* aligns all child elements (flex items) in a row */
-  }
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif; /* Рубленый шрифт заголовка */
+   } 
+   p {
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic; /* Курсивное начертание */
+   }
   
-  .col {
-    flex: 1;        /* distributes space on the line equally among items */
-  }
-
   ol {
     background: #ff9999;
     padding: 20px;
@@ -45,4 +45,68 @@ a:link {
   /* selected link */
   a:active {
     color: blue;
+  }
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background: #20262e;
+  }
+  
+  .container {
+    display: flex; 
+    flex-direction: row;
+  }
+  
+  .col {
+    vertical-align: middle;
+    background: hsla(0,0%,100%,.1);
+    margin:2px;
+    padding:10px;
+  }
+  
+  .col.logo {
+    width: 40%;
+  }
+  
+  .col.logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .col.game-host-logo img {
+    width:auto;
+    max-width: 100%;
+    height: 100%;
   }
