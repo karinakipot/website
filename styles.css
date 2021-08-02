@@ -12,7 +12,7 @@ h1 {
   }
   
   ul {
-    background: #3399ff;
+    background: #2b3035;
     padding: 20px;
   }
   
@@ -23,18 +23,18 @@ h1 {
   }
   
   ul li {
-    background: #696769;
+    background: #585454;
     margin: 5px;
   }
 
   /* unvisited link */
 a:link {
-    color: red;
+    color: rgb(28, 75, 97);
   }
   
   /* visited link */
   a:visited {
-    color: rgb(128, 0, 11);
+    color: rgb(0, 102, 71);
   }
   
   /* mouse over link */
