@@ -23,7 +23,7 @@ h1 {
   }
   
   ul li {
-    background: #ffccf4;
+    background: #696769;
     margin: 5px;
   }
 
@@ -34,12 +34,12 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(128, 0, 11);
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: rgb(71, 66, 69);
   }
   
   /* selected link */
